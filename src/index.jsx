@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import '../assets/stylesheets/application.scss';
+import "../assets/stylesheets/application.scss";
 
 const Hello = ({ name }) => {
   return (
@@ -12,7 +12,8 @@ const Hello = ({ name }) => {
   );
 };
 
-const root = document.getElementById('root');
+const root = document.getElementById("root");
+// Test Commit
 if (root) {
   ReactDOM.render(<Hello name="World" />, root);
 }
